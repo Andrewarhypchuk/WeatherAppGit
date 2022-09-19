@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  font-size: 25px;
+  border: 1px solid black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header {
+  height: 150px;
+
+}
+
+.button {
+  margin: 10px;
+  width: 200px;
+  font-size: 20px;
+  background-color: rgb(139, 179, 213);
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  border:1px solid white;
+  transition-duration: 0.3s;
+}
+.button:hover {
+transform: scale(1.1);
+}
+input{
+height:40px;
+
+font-size: 20px;
+}
+
+.addWidget_container {
+  width: 800px;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.currentWeather_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  min-height: 500px;
+  background-color: rgb(139, 179, 213);
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.widget{
+  width: 650px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 15px;
+  position: relative;
+}
+.d-flex{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+img{
+  height:80px;
+  width:80px;
+}
+.close{
+  position: absolute;
+  height:40px;
+  width:40px;
+  right:20px;
+  top:20px;
+  transition-duration: 0.3s;
+}
+.close:hover{
+ transform: scale(1.2);
+}
